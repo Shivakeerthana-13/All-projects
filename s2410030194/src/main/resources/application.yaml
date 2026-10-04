@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: s2410030194
+  datasource:
+    url: jdbc:mysql://localhost:3306/s2410030194_db?createDatabaseIfNotExist=true
+    username: root
+    password: 123456789
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8086
