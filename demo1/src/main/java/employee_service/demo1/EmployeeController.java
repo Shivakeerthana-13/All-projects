@@ -10,7 +10,7 @@ public class EmployeeController {
 		@Value("${server.port}")
 		private String port;
 	
-    @GetMapping("/hello")+
+    @GetMapping("/hello")
     public String hello() {
         return "Hello from Employee Service";
     }
